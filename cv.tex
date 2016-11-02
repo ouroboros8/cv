@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+
+\newfontfamily{\SC}[Path = ./fonts/ ]{Fontin_Sans_SC_45b}
+
+\setmainfont[Path=./fonts/,
+    ItalicFont = Ubuntu-RI,
+    BoldFont = Ubuntu-B]
+    {Ubuntu-R} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+%To reduce the height of the top margin uncomment: 
+\usepackage[top=2.5cm,bottom=2cm,left=2.5cm,right=2.5cm]{geometry}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\newcommand*{\justifyheading}{\raggedright}
+\titleformat{\section}{\Large\scshape\justifyheading}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage{tabularx}
+\usepackage{array}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\centering{\huge {\SC Daniel Strong}\bigskip}\\ % Your name
+\hrule
+\footnotesize{
+\begin{tabularx}{\textwidth}{lXr}
+\href{mailto:dstrong@glyx.co.uk}{dstrong@glyx.co.uk}    & & {15a Meeting House Lane}\\
+{0758 315 81 81}                                        & & {Lancaster}\\ 
+                                                        & & {LA1 1TJ}
+\end{tabularx}
+}
+%----------------------------------------------------------------------------------------
+%   Quote(s)
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%   GOAL
+%----------------------------------------------------------------------------------------
+
+\section{\SC Goal}
+
+\begin{flushleft}
+To work on projects that will expand my programming skill set and deepen my understanding of software development in practice, with a view to transitioning from a mathematical education to a career as a developer.
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{\SC Relevant Experience}
+\centering
+\begin{tabularx}{\textwidth}{r|X}
+\textbf{Jul 2013 --  Sep 2013} & \textbf{\href{http://www.nerc.ac.uk/}{NERC} Research Internship} at the Lancaster University Environment Centre \\
+                                             & Lancaster, UK \\
+                                             & \footnotesize{\emph{Worked with a PhD student and their supervisor to evaluate the suitability of various pieces of oceanic wave simulation software for modelling the formation of rogue waves in the open ocean. Implemented some simple simulations with the chosen software, \href{http://swanmodel.sourceforge.net/}{SWAN}.}} \\
+\multicolumn{2}{r}{} \\
+\textbf{Jan 2012 -- Jan 2013} & \textbf{President} of PULSAR, the Lancaster University sci-fi, fantasy and horror film society \\
+                             & Lancaster, UK \\
+                             & \footnotesize{\emph{Coordinated revival of the society, tripling attendance (from approximately 10 to over 30
+                               active members) over the course of my term, whilst nurturing a welcoming, close-knit social group.}} \\
+\multicolumn{2}{r}{} \\
+\textbf{Oct 2009 -- Dec 2010} & \textbf{Volunteer} for {\href{http://www.350.org}{350.org} Barcelona}\\
+                                   & Barcelona, Spain\\
+                                   & \footnotesize\emph{Helped to coordinate several events in Barcelona
+                                     promoting action on climate change, and designed and produced literature for the campaign. Attended the
+                                     Barcelona-based preliminary to the \href{https://en.wikipedia.org/wiki/Copenhagen_Summit}{2009 Copenhagen Summit}, lobbying country representatives to pursue progressive international agreements and policies to mitigate\ the impact of climate change.}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{\SC Education}
+
+\begin{tabularx}{\textwidth}{XrlXr}
+
+&\textbf{Oct 2011 -- Present} & Lancaster University & &\\
+&                             & Lancaster, UK & & \\
+&                             & \textbf{BSc Mathematics}, 3\textsuperscript{rd} year & &\\
+\multicolumn{5}{c}{}\\
+
+%------------------------------------------------
+
+&\textbf{Sep 2009 -- Jul 2011} & American School of Barcelona & &\\
+&                              & Barcelona, Spain & &\\
+&                              & \textbf{International Baccalaureate Diploma}, 32 & &\\
+%\multicolumn{2}{c}{}\\
+
+%------------------------------------------------
+
+%\textbf{Sep 2001 -- Jul} 2008  & St. Peter's School\\
+%                               & Barcelona, Spain \\
+%                               & \textbf{Educaci\'o{n} Secundaria Obligatoria} (Spanish GCSE equivalent)\\
+%&\\
+
+%------------------------------------------------
+
+%\textbf{Sep 1997 -- Jul 2001}  & Piccolo Mondo \\
+%                               & Rome, Italy
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{\SC Computer Skills}
+
+\begin{tabularx}{\textwidth}{p{0.3cm}|p{4cm}X}
+ \multicolumn{2}{l}{\textbf{Programming}}    & \\
+    \multicolumn{3}{c}{} \\
+   & Intermediate knowledge of:                      & Python, Perl \\
+   %\multicolumn{3}{c}{} \\
+   \\
+   & Basic knowledge of:                             & Java, Haskell, Lua, R \\
+   \multicolumn{3}{c}{} \\
+ \multicolumn{2}{l}{\textbf{Advanced Linux User}}                 & \\
+   \multicolumn{3}{c}{} \\
+   %\multicolumn{3}{c}{} \\
+   & Distributions:                                  & Arch Linux, Debian, RHEL and derivatives (Ubuntu, Fedora, CentOS, \emph{etc.}) \\
+   %\multicolumn{3}{c}{} \\
+   \\
+   & General skills:                                 & Shell scripting, basic system administration \\
+   \multicolumn{3}{c}{} \\
+ \multicolumn{2}{l}{\textbf{Other}}                 & \\    
+  \multicolumn{3}{c}{} \\
+   & \multicolumn{2}{l}{HTML}\\
+  \\
+  & \multicolumn{2}{l}{{\fb \LaTeX}}\\
+  \\
+  & \multicolumn{2}{l}{git}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\smallskip
+
+\begin{minipage}[t]{0.5\textwidth}
+\section{\SC Languages}
+\smallskip
+\begin{tabular}{rl}
+ \textbf{English:} & Mother tongue  \\
+
+ \textbf{Spanish:} & Native level  \\
+
+ \textbf{Italian:} & Fluent  \\
+
+ \textbf{Catalan:} & Fluent  \\
+
+ \textbf{French:} & Basic
+\end{tabular}
+\end{minipage}\hspace{-0.01\textwidth}
+%
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.505\textwidth}
+\renewcommand{\justifyheading}{\raggedleft}
+\section{\SC Interests and Activities}
+\smallskip
+\begin{tabularx}{\textwidth}{Xr}
+& Open-Source Software, Programming Languages\\
+& Science Fiction and Latin American Literature \\
+& Board Games, Indie Videogames
+\end{tabularx}
+\end{minipage}
+
+%\newpage
+
+% ####################################################################################
+% IB grades
+% ####################################################################################
+
+%\hypertarget{IB}{\phantom{target}}
+%\par{\centering\Large{International Baccalaureate Diploma}}\par\large{\light Grades}\par\normalsize
+%\bigskip
+
+%\begin{tabularx}{\textwidth}{lp{3.475cm}lXc}
+% \multicolumn{1}{c}{\textbf{Level}} && \multicolumn{1}{c}{\textbf{Subject}} && \multicolumn{1}{c}{\textbf{Grades}} \\
+%                                    &&                                      && \multicolumn{1}{c}{\footnotesize{\light(out of 7)}}        \\ 
+% \hline
+% &&&&\\
+%                                    && Mathematics                          && 6 \\
+% Higher level:                      && Physics                              && 6 \\
+%                                    && English A1                           && 4 \\ 
+% &&&&\\ 
+% \hline
+% &&&&\\
+%                                    && Spanish A1                           && 5 \\
+% Standard level:                    && Chemistry                            && 6 \\
+%                                    && Psychology                           && 4 \\
+% &&&&\\
+% \hline
+% &&&&\\
+% \multicolumn{3}{l}{Extended Essay + Theory of Knowledge \footnotesize\light{(out of 3)}} && 1 \\
+% &&&&\\
+% \textbf{Total} \footnotesize
+%{(out of 42)} &&            && \textbf{32}\\
+%\end{tabularx}
+%\vspace*{\fill}
+\end{document}
