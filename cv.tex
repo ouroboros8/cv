@@ -28,12 +28,9 @@
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
 
-\newfontfamily{\SC}[Path = ./fonts/ ]{Fontin_Sans_SC_45b}
-
-\setmainfont[Path=./fonts/,
-    ItalicFont = Ubuntu-RI,
-    BoldFont = Ubuntu-B]
-    {Ubuntu-R} % Main document font
+\setmainfont[
+  SmallCapsFont={Fontin Sans}
+]{Ubuntu} % Main document font
 
 \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
 
@@ -65,7 +62,7 @@
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\centering{\huge {\SC Daniel Strong}\bigskip}\\ % Your name
+\centering{\huge \textsc{Daniel Strong}\bigskip}\\ % Your name
 \hrule
 \footnotesize{
 \begin{tabularx}{\textwidth}{lXr}
@@ -82,7 +79,7 @@
 %   GOAL
 %----------------------------------------------------------------------------------------
 
-\section{\SC Goal}
+\section{\textsc{Goal}}
 
 \begin{flushleft}
 To work on projects that will expand my programming skill set and deepen my understanding of software development in practice, with a view to transitioning from a mathematical education to a career as a developer.
@@ -92,7 +89,7 @@ To work on projects that will expand my programming skill set and deepen my unde
 %	WORK EXPERIENCE 
 %----------------------------------------------------------------------------------------
 
-\section{\SC Relevant Experience}
+\section{\textsc{Relevant Experience}}
 \centering
 \begin{tabularx}{\textwidth}{r|X}
 \textbf{Jul 2013 --  Sep 2013} & \textbf{\href{http://www.nerc.ac.uk/}{NERC} Research Internship} at the Lancaster University Environment Centre \\
@@ -115,7 +112,7 @@ To work on projects that will expand my programming skill set and deepen my unde
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\section{\SC Education}
+\section{\textsc{Education}}
 
 \begin{tabularx}{\textwidth}{XrlXr}
 
@@ -148,7 +145,7 @@ To work on projects that will expand my programming skill set and deepen my unde
 %	COMPUTER SKILLS 
 %----------------------------------------------------------------------------------------
 
-\section{\SC Computer Skills}
+\section{\textsc{Computer Skills}}
 
 \begin{tabularx}{\textwidth}{p{0.3cm}|p{4cm}X}
  \multicolumn{2}{l}{\textbf{Programming}}    & \\
@@ -181,7 +178,7 @@ To work on projects that will expand my programming skill set and deepen my unde
 \smallskip
 
 \begin{minipage}[t]{0.5\textwidth}
-\section{\SC Languages}
+\section{\textsc{Languages}}
 \smallskip
 \begin{tabular}{rl}
  \textbf{English:} & Mother tongue  \\
@@ -202,7 +199,7 @@ To work on projects that will expand my programming skill set and deepen my unde
 %
 \begin{minipage}[t]{0.505\textwidth}
 \renewcommand{\justifyheading}{\raggedleft}
-\section{\SC Interests and Activities}
+\section{\textsc{Interests and Activities}}
 \smallskip
 \begin{tabularx}{\textwidth}{Xr}
 & Open-Source Software, Programming Languages\\
