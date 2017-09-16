@@ -51,10 +51,15 @@
 \usepackage{array}
 \usepackage{enumitem}
 
+\usepackage[british]{babel}
+
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
 \setlist{after=\vspace{-1\baselineskip}}
+% No hyphens plz
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
 %========================================================================================
 %	NAME AND CONTACT INFORMATION
