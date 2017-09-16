@@ -49,10 +49,12 @@
 
 \usepackage{tabularx}
 \usepackage{array}
+\usepackage{enumitem}
 
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
+\setlist{after=\vspace{-1\baselineskip}}
 
 %========================================================================================
 %	NAME AND CONTACT INFORMATION
@@ -84,6 +86,7 @@ Driven and perpetually curious DevOps engineer with a passion for exploring new 
 
 \textbf{Nov 2016 -- Present}        & \textbf{DevOps Engineer} at HM Revenue \& Customs \\
                                     & \emph{London, UK} \\
+                                    & \\
                                     & \footnotesize
     {As part of HMRC Digital's DevOps Engineering team, I built, maintained and
     extended the Multi-channel Digital Tax Platform (MDTP), a docker-based PaaS
@@ -105,7 +108,7 @@ Driven and perpetually curious DevOps engineer with a passion for exploring new 
 \textbf{Nov 2015 -- Nov 2016}       & \textbf{DevOps Support Engineer} at HM Revenue \& Customs \\
                                     & \emph{London, UK} \\
                                     & \footnotesize
-    {\begin{itemize}
+    {\begin{itemize}[after=\vspace{-2\baselineskip}]
     \item Streamlined incident response and resolution by establishing a triage
     rota and work-in-progress limits, resulting in the elimination of a backlog
     which had fluctuated between 20 and 60 tickets since I joined.
