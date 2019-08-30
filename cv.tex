@@ -69,16 +69,18 @@
 \hrule
 \footnotesize
 {\begin{tabularx}{\textwidth}{lXr}
-\href{mailto:dstrong@glyx.co.uk}{dstrong@glyx.co.uk} & & {Flat 4, Smith's Yard, Blossom Street}\\
-{0758 315 81 81}                                     & & {Manchester}\\
-                                                     & & {M46AJ}
+\href{mailto:dstrong@glyx.co.uk}{dstrong@glyx.co.uk}                    & & {Flat 4, Smith's Yard, Blossom Street}\\
+\href{https://github.com/ouroboros8}{github.com/ouroboros8}             & & {Manchester}\\
+\href{https://www.linkedin.com/in/dstrong52}{linkedin.com/in/dstrong52} & & {M46AJ} \\
+{0758 315 81 81}                                                        & &
 \end{tabularx}}
 
 %========================================================================================
 %	Summary
 %========================================================================================
 \begin{flushleft}
-Perpetually curious DevOps engineer with a passion for exploring new technologies.
+I am a perpetually curious generalist, and passionate about software quality.
+I strive to continuously improve, do what matters, and keep it simple.
 \end{flushleft}
 
 %========================================================================================
@@ -93,36 +95,24 @@ Perpetually curious DevOps engineer with a passion for exploring new technologie
                                     & \emph{Manchester, UK} \\
                                     & \\
                                     & \footnotesize
-    {Since starting in November 2017 I have worked on several teams across
-    Co-op's Digital division, the department driving the Co-op's Digital
-    Transformation program, building modern web services on AWS and Azure.
+    {At the Co-op I have worked across Co-op's Digital division, driving the
+        Co-op's Digital Transformation program.
     \begin{itemize}
-    \item I built out an implementation of Kong API gateway, starting from a
-        prototype left by a departing engineer. I used open source tools to
-        build an automated deployment pipeline for version controlled YAML
-        config, and wrote and maintained comprehensive operational
-        documentation.
-    \item On the Membership team, I was responsible for supporting the complex
-        array of Java services that underpins the Membership website. This old
-        part of the Co-op Digital estate is tightly integrated with legacy
-        Co-op IT systems; by necessity this position involved a lot of reactive
-        work and prioritisation of incidents.  Nevertheless, with the support
-        of the team, I managed to make significant improvements to the
-        infrastructure while I was there, such as reducing deployment times by
-        a factor of 10 by rolling out prebuilt AMIs provisioned with Packer. I
-        also worked on the Digital Offers project, helping build out a
-        serverless solution for managing digital coupons powered by AWS Lambda
-        and AWS API Gateway.
-    \item For the Health team, I built out the API infrastructure for the Co-op
-        Health App, a mobile app which allows users to manage and order repeat
-        prescriptions.  Working in a tight-knit multidisciplinary team, I
-        rolled out a major refactor of the Terraform template used elsewhere in
-        Co-op Digital.  Leveraging my experiences with Kong, I provided
-        architectural guidance to developers on API implementation and
-        management, designing and documenting the OAuth2.0 authentication flow
-        used by the mobile app and the building a configuration management
-        pipeline for AWS API Gateway based on version controlled OpenAPI
-        specifications.
+    \item Reduced automated deployment times for the Co-op Membership Java
+        services by a factor of 10, using prebuilt AMIs provisioned with
+        Packer.
+    \item Ran spikes on API rate limiting, weighing up the advantages of rate
+        limiting calls to AWS API Gateway with a python Lambda implementing the
+        token-bucket algorithm against running nginx in sidecar containers
+        behind the gateway, as well as evaluating a third party cloud WAF
+        appliance providing rate limiting on the network edge.
+    \item Drove efforts to refactor and simplify the templated terraform set up
+        used by delivery teams across digital using a flatter and more cohesive
+        module structure.
+    \item Rebuilt the Co-op Health APIs Jenkins CI/CD pipeline with close
+        regard to ease of use for developers, consolidating multiple step
+        release process into one single-click declarative pipeline for each
+        environment.
     \end{itemize}}\\
 
 \multicolumn{2}{r}{} \\ %----------------------------------------------------------------
@@ -136,15 +126,14 @@ Perpetually curious DevOps engineer with a passion for exploring new technologie
     which hosts HMRC's digital services.
     \begin{itemize}
     \item Lead the reimplementation of MDTP on AWS and reduced the size of the
-    infrastructure codebase (in lines of code) by an order of magnitude,
-    massively reducing architectural complexity and simplifying platform
-    maintenance.
+        infrastructure codebase (in lines of code) by a factor of 10, massively
+        reducing architectural complexity and simplifying platform maintenance.
     \item Trained and upskilled new joiners, allowing the migration to continue
-    despite a staggering loss of 75\% of our engineering team due to tax code
-    changes.
+        despite a the loss of 75\% of our engineering team due to tax code
+        changes.
     \item Collaborated with development teams to ensure a smooth, zero-downtime
-    switch-over to AWS, minimising disruption both to services' release cycles
-    and to our customers.
+        cutover to AWS, minimising disruption both to services' release cycles
+        and to our customers.
     \end{itemize}}\\
 
 \multicolumn{2}{r}{} \\ %----------------------------------------------------------------
@@ -156,9 +145,9 @@ Perpetually curious DevOps engineer with a passion for exploring new technologie
     \item Streamlined incident response and resolution by establishing a triage
     rota and work-in-progress limits, resulting in the elimination of a backlog
     which had fluctuated between 20 and 60 tickets since I joined.
-    \item Coordinated proactive monitoring of release-critical pre-production
-    environments, leading to a marked reduction in disruption to service
-    development teams.
+    \item Extended monitoring to release-critical pre-production environments,
+        leading to a marked reduction in disruption to service development
+        teams.
     \item Implemented predictive monitoring for simple trends like disk usage
     using linear regression.
     \end{itemize}}\\
@@ -195,9 +184,9 @@ Perpetually curious DevOps engineer with a passion for exploring new technologie
    & Logging and monitoring:             & Elasticsearch, Logstash, Kibana (ELK stack); Sensu, Graphite,
                                            collectd \\
      \\
-   & Databases:                          & MongoDB, postgreSQL, MySQL/MariaDB \\
+   & Databases:                          & MongoDB, PostgreSQL, MySQL/MariaDB \\
      \\
-   & Virtualisation, containerisation:   & Docker (and a little kubernetes), Vagrant, Virtualbox \\
+   & Virtualisation, containerisation:   & Docker, Kubernetes, Vagrant \\
      \\
    & Continuous Integration:             & Jenkins, GitLabCI, Travis, CircleCI \\
 \multicolumn{3}{c}{} \\ %----------------------------------------------------------------
@@ -205,39 +194,31 @@ Perpetually curious DevOps engineer with a passion for exploring new technologie
 \multicolumn{3}{c}{} \\ % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   &  Advanced:                           & Python, Bash \\
      \\
-  &  Basic                               & Go, Rust, Ruby, Javascript\\
+  &  Basic                               & JavaScript, Clojure, Go, Ruby \\
 \end{tabularx}
 
 %========================================================================================
 %	LANGUAGES
 %========================================================================================
-\bigskip
-\begin{minipage}[t]{0.75\textwidth}
-\section{Online}
-\begin{tabular}{l}
-\href{https://github.com/ouroboros8}{github.com/ouroboros8}\\
-\href{https://www.linkedin.com/in/dstrong52}{linkedin.com/in/dstrong52}
-\end{tabular}
-\end{minipage}\hspace{-0.01\textwidth}
+\section{Interests}
+\raggedright
+In my spare time I play video and board games, read widely, and contribute to
+open source projects such as jinteki.net
+(\href{https://github.com/mtgred/netrunner}{mtgred/netrunner} on github), a
+community operated website for playing the now out-of-print Android: Netrunner
+card game.
 %
 %========================================================================================
 %	INTERESTS AND ACTIVITIES
 %========================================================================================
 %
-\begin{minipage}[t]{0.25\textwidth}
-\renewcommand{\justifyheading}{\raggedleft}
 \section{\textsc{Languages}}
 \begin{tabular}{rl}
  \textbf{English:} & Mother tongue  \\
-
  \textbf{Spanish:} & Native level  \\
-
- \textbf{Italian:} & Fluent  \\
-
  \textbf{Catalan:} & Fluent  \\
-
+ \textbf{Italian:} & Conversational  \\
  \textbf{French:}  & Conversational
 \end{tabular}
-\end{minipage}
 
 \end{document}
