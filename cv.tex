@@ -99,8 +99,7 @@ I strive to continuously improve, do what matters, and keep it simple.
         Co-op's Digital Transformation program.
     \begin{itemize}
     \item Reduced automated deployment times for the Co-op Membership Java
-        services by a factor of 10, using prebuilt AMIs provisioned with
-        Packer.
+        services by a factor of 10 using prebuilt AMIs provisioned with Packer.
     \item Ran spikes on API rate limiting, weighing up the advantages of rate
         limiting calls to AWS API Gateway with a python Lambda implementing the
         token-bucket algorithm against running nginx in sidecar containers
@@ -108,7 +107,7 @@ I strive to continuously improve, do what matters, and keep it simple.
         appliance providing rate limiting on the network edge.
     \item Drove efforts to refactor and simplify the templated terraform set up
         used by delivery teams across digital using a flatter and more cohesive
-        module structure.
+        module structure which minimises config drift between environments.
     \item Rebuilt the Co-op Health APIs Jenkins CI/CD pipeline with close
         regard to ease of use for developers, consolidating multiple step
         release process into one single-click declarative pipeline for each
