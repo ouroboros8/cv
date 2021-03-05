@@ -69,9 +69,9 @@
 \hrule
 \footnotesize
 {\begin{tabularx}{\textwidth}{lXr}
-\href{mailto:dstrong@glyx.co.uk}{dstrong@glyx.co.uk}                    & & {Flat 4, Smith's Yard, Blossom Street}\\
+\href{mailto:dstrong@glyx.co.uk}{dstrong@glyx.co.uk}                    & & {41 Upper Chorlton Road}\\
 \href{https://github.com/ouroboros8}{github.com/ouroboros8}             & & {Manchester}\\
-\href{https://www.linkedin.com/in/dstrong52}{linkedin.com/in/dstrong52} & & {M46AJ} \\
+\href{https://www.linkedin.com/in/dstrong52}{linkedin.com/in/dstrong52} & & {M16 7RW} \\
 {0758 315 81 81}                                                        & &
 \end{tabularx}}
 
@@ -79,19 +79,15 @@
 %	Summary
 %========================================================================================
 \begin{flushleft}
-I am a perpetually curious generalist, seeking roles in diverse and challenging
-environments which foster collaboration and exploration, and provide
-opportunities for me to broaden my understanding of all aspects of software
-development, design and delivery.
+I am a perpetually curious generalist, seeking roles in diverse environments
+which will broaden my understanding of all aspects of software development,
+design and delivery. I am passionate about software quality and prefer
+test-driven and data-driven development methodologies, continuous iteration and
+constant feedback.
 
-I am passionate about software quality, and strongly prefer test and data
-driven development methodologies which enable continuous iteration and constant
-feedback.
-
-I have a particular interest in continuous delivery and release engineering, an
-often hidden but critically important part of any agile software lifecycle, and
-one which has significant consequences for security, observability and
-velocity.
+I have a particular interest in continuous delivery and release engineering, a
+critical but often invisible part of agile software lifecycles which impacts
+security, observability and velocity.
 
 I strive to be inclusive, continuously improve, and keep it simple.
 \end{flushleft}
@@ -104,15 +100,32 @@ I strive to be inclusive, continuously improve, and keep it simple.
 \centering
 \begin{tabularx}{\textwidth}{r|X}
 
-\textbf{Nov 2017 -- Present}        & \textbf{Platform Engineer} at The Co-operative Group \\
+\textbf{Dec 2019 -- Present}        & \textbf{Senior Systems Engineer} at the BBC \\
                                     & \emph{Manchester, UK} \\
                                     & \\
                                     & \footnotesize
-    {At the Co-op I have worked across Co-op's Digital division, driving the
-        Co-op's Digital Transformation program.
+    {At the BBC I worked in BBC R\&D's Future Experience Technologies (FXT)
+        section, helping research teams streamline their development and
+        deployment practices.
     \begin{itemize}
-    \item Reduced automated deployment times for the Co-op Membership Java
-        services by a factor of 10 using prebuilt AMIs provisioned with Packer.
+        \item Built and supported backend infrastructure and monitoring
+            (CloudWatch and InfluxDB) for the
+            \href{https://www.bbc.co.uk/together}{BBC Together} public trial.
+        \item TODO...
+    \end{itemize}}\\
+
+\multicolumn{2}{r}{} \\ %----------------------------------------------------------------
+
+\textbf{Nov 2017 -- Dec 2019}       & \textbf{Platform Engineer} at The Co-operative Group \\
+                                    & \emph{Manchester, UK} \\
+                                    & \\
+                                    & \footnotesize
+    {I worked across Co-op's Digital division, first as part of a dedicated
+        platform team, then as an embedded expert in the Membership team and
+        later on Co-op Health.
+    \begin{itemize}
+    \item Reduced automated deployment times for Co-op Membership services by a
+        factor of 10 using preconfigured AMIs provisioned with Packer.
     \item Ran spikes on API rate limiting, weighing up the advantages of rate
         limiting calls to AWS API Gateway with a python Lambda implementing the
         token-bucket algorithm against running nginx in sidecar containers
@@ -123,7 +136,7 @@ I strive to be inclusive, continuously improve, and keep it simple.
         module structure which minimises config drift between environments.
     \item Rebuilt the Co-op Health APIs Jenkins CI/CD pipeline with close
         regard to ease of use for developers, consolidating multiple step
-        release process into one single-click declarative pipeline for each
+        release process into one single-click declarative pipeline per
         environment.
     \end{itemize}}\\
 
@@ -134,10 +147,10 @@ I strive to be inclusive, continuously improve, and keep it simple.
                                     & \\
                                     & \footnotesize
     {As part of HMRC Digital's WebOps Engineering team, I built, maintained and
-    extended the Multi-channel Digital Tax Platform (MDTP), a docker-based PaaS
-    which hosts HMRC's digital services.
+        extended the Multi-channel Digital Tax Platform (MDTP), the
+        docker-based PaaS which hosts HMRC's digital services.
     \begin{itemize}
-    \item Lead the reimplementation of MDTP on AWS and reduced the size of the
+    \item Led the reimplementation of MDTP on AWS and reduced the size of the
         infrastructure codebase (in lines of code) by a factor of 10, massively
         reducing architectural complexity and simplifying platform maintenance.
     \item Trained and upskilled new joiners, allowing the migration to continue
@@ -164,17 +177,6 @@ I strive to be inclusive, continuously improve, and keep it simple.
     using linear regression.
     \end{itemize}}\\
 
-\multicolumn{2}{r}{} \\ %----------------------------------------------------------------
-
-\textbf{Jul 2014 -- Jul 2015}     & \textbf{Junior Developer} at {Nektarina Non-Profit}\\
-                                    & \emph{Lancaster, UK}\\
-                                    & \footnotesize
-    {\begin{itemize}
-    \item Built a questionnaire web application with Django, Python and postgreSQL
-    \item Maintained several Wordpress installations on a LAMP (Linux, Apache,
-    MySQL, PhP) on CentOS stack.
-    \end{itemize}}\\
-
 \end{tabularx}
 
 %========================================================================================
@@ -186,27 +188,25 @@ I strive to be inclusive, continuously improve, and keep it simple.
 %----------------------------------------------------------------------------------------
 \multicolumn{2}{l}{\textbf{DevOps}} & \\
 \multicolumn{3}{c}{} \\ % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-   & Linux:                              & Debian, RHEL, Arch Linux; and derivatives (Ubuntu, CentOS,
-                                           \emph{etc.}) \\
+   & Linux administration:               & Containerisation, TCP/IP, configuration management, RBAC and SELinux \\
      \\
-   & Configuration management:           & Terraform, Packer, Ansible, Puppet \\
+   & Infrastructure as Code:             & Terraform, Packer \\
      \\
-   & Public Cloud:                       & Load balancing and autoscaling, IAM; AWS S3, Lambda, API Gateway; some exposure to Azure, AKS\\
+   & Logging and monitoring:             & Elasticsearch, Logstash, Kibana (ELK stack); Sensu, Graphite, collectd \\
      \\
-   & Logging and monitoring:             & Elasticsearch, Logstash, Kibana (ELK stack); Sensu, Graphite,
-                                           collectd \\
+   & Continuous Integration:             & Jenkins X, GitHub Actions, GitLabCI, Travis, CircleCI \\
      \\
-   & Databases:                          & MongoDB, PostgreSQL, MySQL/MariaDB \\
+   & Serverless:                         & Object stores, Functions-as-a-Service (Lambda), AWS RDS, AWS API Gateway \\
      \\
-   & Virtualisation, containerisation:   & Docker, Kubernetes, Vagrant \\
+   & Networking:                         & Public cloud networking, load balancing, NAT and reverse proxying \\
      \\
-   & Continuous Integration:             & Jenkins, GitLabCI, Travis, CircleCI \\
+   & Identity and permissions:           & Public cloud IAM, OAuth 2.0, secret management \\
 \multicolumn{3}{c}{} \\ %----------------------------------------------------------------
 \multicolumn{2}{l}{\textbf{Programming Languages}}      & \\
 \multicolumn{3}{c}{} \\ % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   &  Advanced:                           & Python, Bash \\
      \\
-  &  Basic                               & JavaScript, Clojure, Go, Ruby \\
+  &  Basic                               & JavaScript, Go, Rust, Clojure \\
 \end{tabularx}
 
 %========================================================================================
@@ -214,11 +214,10 @@ I strive to be inclusive, continuously improve, and keep it simple.
 %========================================================================================
 \section{Interests}
 \raggedright
-In my spare time I play video and board games, read widely, and contribute to
-open source projects such as jinteki.net
-(\href{https://github.com/mtgred/netrunner}{mtgred/netrunner} on github), a
-community operated website for playing the now out-of-print Android: Netrunner
-card game.
+In my spare time I play video games and board games, read widely, and help out
+with tech stuff at \href{https://nisei.net}{NISEI}, a fan-run nonprofit
+volunteer collective supporting the out of print Android: Netrunner card game.
+
 %
 %========================================================================================
 %	INTERESTS AND ACTIVITIES
@@ -226,10 +225,10 @@ card game.
 %
 \section{\textsc{Languages}}
 \begin{tabular}{rl}
- \textbf{English:} & Mother tongue  \\
- \textbf{Spanish:} & Native level  \\
- \textbf{Catalan:} & Fluent  \\
- \textbf{Italian:} & Conversational  \\
+ \textbf{English:} & Native \\
+ \textbf{Spanish:} & Fluent \\
+ \textbf{Catalan:} & Fluent \\
+ \textbf{Italian:} & Conversational \\
  \textbf{French:}  & Conversational
 \end{tabular}
 
